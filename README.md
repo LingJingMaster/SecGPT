@@ -16,4 +16,5 @@
 	- `secgpt.gguf`基于baichuan,   需 26.5 G 显存
 	- `secgpt-mini.gguf`基于qwen2, 需 1.6 G 显存
 - 使用方法
-	- 将 GGUF 导入[LM Studio](https://lmstudio.ai/)，并使用 `secgpt-all.json` 作为参数配置
+	- 方法1：将 GGUF 导入[LM Studio](https://lmstudio.ai/)，并使用 `secgpt-all.json` 作为参数配置
+	- 方法2：安装[Ollama](https://ollama.com),使用`ollama run lingjing/secgpt_chat`命令
